@@ -11,9 +11,9 @@ This project transforms your hand movements into **dynamic neon visuals, particl
 neon-hand-gesture-visualizer/
 │
 ├── index.html         # Main UI structure
-├── main.js            # Core logic (hand tracking, effects, audio)
+├── main.js            # Core logic
 ├── app.css            # Styling & UI design
-├── LICENSE
+├── LICENSE            # MIT LICENSE
 └── README.md          # Project documentation
 ```
 
@@ -27,16 +27,12 @@ neon-hand-gesture-visualizer/
 * Detects up to **2 hands simultaneously**
 * Tracks **21 landmarks per hand**
 
----
-
 ### 🎯 Gesture Recognition
 
 * 🤏 Pinch Detection (Thumb + Index)
 * ✋ Open Hand Detection
 * ✊ Fist Detection
 * Live gesture feedback on screen
-
----
 
 ### 🎨 Neon Visual Effects
 
@@ -45,8 +41,6 @@ neon-hand-gesture-visualizer/
 * Smooth **motion trails**
 * Gradient-based lighting effects
 
----
-
 ### ⚡ Interactive Effects Engine
 
 * 💥 Shockwave effect on pinch
@@ -54,15 +48,11 @@ neon-hand-gesture-visualizer/
 * ⚡ Lightning between both hands
 * 🌀 Mandala-style pattern rendering
 
----
-
 ### 🌧️ Matrix Background System
 
 * Animated **matrix rain effect**
 * Speed reacts to **hand movement velocity**
 * Creates immersive cyberpunk feel
-
----
 
 ### 🔊 Reactive Audio System
 
@@ -71,8 +61,6 @@ neon-hand-gesture-visualizer/
 * ⚡ Zap sound on pinch gesture
 * Real-time audio modulation
 
----
-
 ### 🎭 Theme Switcher
 
 * Rainbow 🌈
@@ -80,8 +68,6 @@ neon-hand-gesture-visualizer/
 * Lava 🔥
 * Ocean 🌊
 * Galaxy 🌌
-
----
 
 ### 📊 Live HUD (Heads-Up Display)
 
@@ -129,12 +115,10 @@ cd neon-hand-gesture-visualizer
 ### 3️⃣ Run Project
 
 * Open `index.html` in browser
-* Allow **camera permission**
+* Allow **camera permission**(`Required`)
 * Click **Enter Experience**
 
----
-
-## 🖥️ What You'll See
+### 🖥️ What You'll See
 
 * 🎥 Live camera feed (mirrored)
 * ✋ Hand skeleton with neon glow
@@ -152,14 +136,10 @@ cd neon-hand-gesture-visualizer
 * MediaPipe processes video frames
 * Detects hand landmarks in real-time
 
----
-
 ### 2️⃣ Gesture Processing
 
 * Calculates distance between fingers
 * Identifies pinch, open hand, fist
-
----
 
 ### 3️⃣ Rendering Engine
 
@@ -169,8 +149,6 @@ cd neon-hand-gesture-visualizer
   * Particles
   * Shockwaves
   * Lightning
-
----
 
 ### 4️⃣ Audio Engine
 
@@ -197,6 +175,12 @@ cd neon-hand-gesture-visualizer
 
 ---
 
+## 📸 Preview
+
+![Preview](assets/NHGV-1.png)
+
+---
+
 ## 🪪 Author
 
 > **Creator: Shakal Bhau**
@@ -216,3 +200,5 @@ If you like this project:
 ---
 
 > ✨ *Move your hands. Create magic.* ✨
+
+---
