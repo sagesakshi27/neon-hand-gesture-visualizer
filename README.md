@@ -10,6 +10,7 @@ This project transforms your hand movements into **dynamic neon visuals, particl
 ```bash
 neon-hand-gesture-visualizer/
 │
+├── assets/               # Screenshots
 ├── index.html            # Main UI structure
 ├── main.js               # Core logic
 ├── styles.css            # Styling & UI design
